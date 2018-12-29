@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.test.inputevent.MainActivity">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="400dp"
+        android:layout_height="50dp" />
+
+    <com.test.inputevent.MyViewGroup
+        android:id="@+id/viewGroup"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:background="#f00"
+        android:gravity="center"
+        >
+
+        <com.test.inputevent.MyView
+            android:id="@+id/view"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="#0f0"
+            >
+        </com.test.inputevent.MyView>
+
+    </com.test.inputevent.MyViewGroup>
+
+</LinearLayout>
